@@ -66,7 +66,10 @@ function DictionaryEntry({word, setWord}) {
                     ))}
                 </ol>
                 {wordObject.quote &&
-                    <p>Quotes: {wordObject.quote}</p>
+                    <div>
+                        <h3>Quote:</h3>
+                        <p> {wordObject.quote}</p>
+                    </div>
                 }
                 {wordObject.synonyms &&
                     <div className="list-container">

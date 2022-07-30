@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Josefin+Sans&display=swap");
+
 body {
   color: white;
   background-color: black;
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .search-bar {
@@ -135,7 +138,7 @@ p {
   color: white;
 }
 
-.list-container h3 {
+h3 {
   margin-bottom: 0.5em;
 }
 
@@ -170,4 +173,15 @@ ol {
 
 ol li:not(:last-child) {
   margin-bottom: 0.5rem;
+}
+
+li,
+p,
+button {
+  font-size: 18px;
+  font-family: "Bitter", serif;
+}
+
+button {
+  text-decoration: underline;
 }
