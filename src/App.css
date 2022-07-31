@@ -130,6 +130,7 @@ input::placeholder {
 
 p {
   width: 90vw;
+  max-width: 700px;
 }
 
 .icon-btn {
@@ -180,6 +181,7 @@ p,
 button {
   font-size: 18px;
   font-family: "Bitter", serif;
+  line-height: 22px;
 }
 
 button {

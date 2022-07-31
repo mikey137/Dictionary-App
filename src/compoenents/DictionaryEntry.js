@@ -62,7 +62,7 @@ function DictionaryEntry({word, setWord}) {
                 </div>
                 <ol>
                     {wordObject.definitions?.map((definition, index) => (
-                        <li key={index}>{definition}</li>
+                        <li key={index}><p>{definition}</p></li>
                     ))}
                 </ol>
                 {wordObject.quote &&
